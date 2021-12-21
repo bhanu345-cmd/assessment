@@ -1,0 +1,17 @@
+.navbar-brand p{
+    color:grey;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar-brand h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.navbar .input-group-text, .navbar input.form-control{
+    background-color: transparent;
+    border:none;
+}
+.navbar .input-group{
+    border:1px solid #e9ecef;
+    border-radius: 3px;
+}

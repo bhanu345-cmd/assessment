@@ -1,0 +1,93 @@
+.sidebar{
+    padding:10px 0px 0px 10px;
+}
+.sidebar .mainLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:35px;
+    margin-right: auto;
+}
+.sidebar .mainLogo h4{
+    font-size: 18px;
+    font-weight:700;
+}
+.sidebar .mainLogo p{
+    font-size: 16px;
+    font-weight: 600;
+    color:grey;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ececfe;
+}
+.sidebar .sidebarConfig{
+    display:flex;
+    flex-direction: column;
+}
+.sidebar .sidebarConfig .sideBarConfigItem{
+    display:flex;
+    padding:10px 10px 10px 10px;
+    flex-direction:row;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar .sidebarConfig .sideBarConfigItem span:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.sidebar .sidebarConfig .sideBarConfigItem span:last-of-type{
+   flex: 1 1 auto;
+}
+.sidebar .sidebarConfig .sideBarConfigItem:hover{
+    color:blue;
+}
+.sidebar .mytutors{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .mytutors .tutorDetails{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding:10px 10px 10px 10px;
+    cursor: pointer;
+}
+.sidebar .mytutors .tutorDetails .tutorImg{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+}
+.sidebar .mytutors .tutorDetails .tutorSubject{
+    display:flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left:10px;
+}
+.sidebar .mytutors .tutorDetails .tutorSubject h4{
+    font-size: 16px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.sidebar .mytutors .tutorDetails .tutorSubject p{
+    font-size: 14px;
+    font-weight: 600;
+    color:grey;
+}
+.sidebar .mytutors .header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 10px 10px 10px;
+}
+.sidebar .mytutors .header h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: auto;
+}

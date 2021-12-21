@@ -1,0 +1,195 @@
+p,.row{margin:0;}
+.jumbotron{
+    margin-left:auto !important;
+    margin-right:auto !important;
+    background-color:white !important;
+    box-shadow: whitesmoke 5px;
+    box-sizing: border-box !important;
+    width:55%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top:10px;
+}
+.jumbotron .introduction{
+    display: block;
+    width:100%; 
+    margin:4px;
+}
+.jumbotron .introduction .headLine{
+    width:80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+.jumbotron .introduction h4{
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    letter-spacing: 0.5px;
+}
+.jumbotron .introduction p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:8px 0 6px 0;
+    text-align:center;
+    font-weight: 500;
+}
+.jumbotron .introduction p:last-of-type{
+    color:blue;
+}
+.jumbotron .introduction p:first-of-type{
+    color:rgb(119, 118, 118);
+}
+.jumbotron .introduction p a{
+    color:blue;
+}
+.jumbotron .opinion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.jumbotron .opinionContent{
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(223, 220, 220);
+    height:150px;
+    width:100%;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px whitesmoke;
+}
+.jumbotron .opinionContent p{
+    margin-top: 20px;
+    font-weight:400;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:90%;
+    word-wrap: break-word;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.jumbotron .opinionContent.bg-custom-success{
+    background-color: rgb(216, 252, 216); 
+}
+.jumbotron .col-spacing{
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron .status{
+    text-align:center;
+    display: block;
+    width:100%; 
+    margin:4px;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jumbotron .inputFile{
+    text-align:center;
+    display: block;
+    width:100%; 
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.jumbotron .actionButtons{
+    width:100%;
+    margin-top:4px;
+    margin-bottom:4px;
+    display: block;
+}
+
+.jumbotron .inputFile .fileLabel{
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 1.67px;
+    border:1px solid rgb(223, 220, 220);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+    border-radius: 3px;
+    overflow: hidden;
+    padding:5px 0px 5px 0px;
+ 
+}
+.jumbotron .inputFile .fileLabel input.form-control{
+    border:none;
+}
+.jumbotron .inputFile .fileLabel svg{
+    flex:0.5;
+}
+.jumbotron .inputFile .fileLabel label{
+    overflow: ellipse;
+    flex:3;
+    font-size: small;
+    margin: 0;
+}
+.jumbotron .courseList{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:4px 0 4px 0;
+}
+.jumbotron .course{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    padding:5px 4px 5px 4px;
+    margin:4px 0 4px 0;
+    border: 1px solid rgb(223, 220, 220);
+    align-items: center;
+    border-radius: 3px;
+}
+
+.jumbotron .course label{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: 500;
+    margin-left:5px;
+    margin-bottom:0;
+}
+
+.jumbotron .inputContent{
+    display:flex;
+    flex-direction: column;
+    margin:8px 0 5px 0;
+}
+.jumbotron .inputContent label{
+    font-size: 14px;
+    font-weight:500;
+}
+.jumbotron .inputContent .inputSubcontent span{
+    font-size: 14px;
+    font-weight:500;
+}
+.jumbotron .inputContent #date p:last-of-type{
+    color:rgb(119, 118, 118);
+}
+
+.jumbotron .inputContent .inputSubcontent{
+    display: flex;
+    flex-direction: row;
+}
+.jumbotron .subjectarea{
+    width:100%;
+}
+.jumbotron .inputContent .input-sub-subcontent{
+    display:block;
+    margin-left: auto;
+}
+
+@media screen and (max-width:768px) {
+    .jumbotron{
+        width: 100% !important;
+    }
+    .jumbotron .opinionContent p{
+        font-size: 12px;
+    }
+}
+

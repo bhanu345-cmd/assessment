@@ -1,0 +1,105 @@
+
+.carousel{
+    display:flex;
+    align-items: center;
+    overflow: hidden;
+    position:relative;
+}
+.carousel .carouselInner{
+    display:flex ;
+    flex-direction: row;
+    position: relative;
+    transform-style: preserve-3d;
+    backface-visibility: hidden; 
+    transition: transform 400ms ease-in-out 0s;
+    will-change: transform,transition;
+}
+.carousel .carouselInner .carouselItem{
+    flex:1 1 auto;
+    position:relative;
+    padding: 20px 0 20px 20px;
+}
+.carousel .carouselInner .carouselItem .card{
+    box-shadow: 5px 5px 0px 2px rgba(248, 247, 247, 0.938);
+    border: 1px solid whitesmoke;
+}
+.carousel .carouselInner .carouselItem .card.focused{
+    box-shadow: 0px 0px 5px 3px rgba(154, 144, 247, 0.938);
+}
+.carousel .carouselInner .carouselItem .card .card-footer{
+    background-color: transparent;
+}
+.carousel .carouselInner .carouselItem .card-body-subject-flex-column{
+    display:flex;
+    flex-direction: column;
+}
+.carousel .carouselInner .carouselItem .card-body-subject-flex-row{
+    display: flex;
+    margin:4px 0 4px 0;
+    align-items: center;
+    flex-direction:row;
+}
+.carousel .carouselInner .carouselItem .card-body-subject-flex-column .level{
+    flex: 1 1 auto;
+    color:greenyellow;
+    font-size: 12px;
+    text-transform:uppercase;
+    letter-spacing: .5px;
+}
+.carousel .carouselInner .carouselItem .card-body-subject-flex-column .SubjectName{
+    flex: 1 1 auto;
+    font-size:16px;
+    max-height:20px;
+    overflow:hidden;
+    margin-bottom: 0;
+}
+.carousel .carouselInner .carouselItem .logoImg{
+    width:50px;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.carousel .carouselInner .carouselItem .by {
+    color:gray;
+}
+.carousel .carouselInner .carouselItem .flexItem{
+    padding:0px 0px 0px 10px;
+}
+.carousel .carouselInner .carouselItem{
+    font-size:14px;
+}
+.carousel .carouselInner .carouselItem  .authorName{
+    font-weight:bold;
+}
+.carousel .carouselInner .carouselItem  .carouselItem-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.carousel .carouselInner .carouselItem  .carouselItem-footer .range{
+    height:5px;
+    border-radius: 5px;
+    background-color: gray;
+    width:100px;
+}
+.carousel .carouselInner .carouselItem  .carouselItem-footer .country{
+    border-radius: 50%;
+    width:25px;
+    height:20px;
+    background-color: gray;
+}
+.carousel .carouselInner .carouselItem .card-body-subject-flex-column.card-body-paddingleft{
+    padding-left:10px;
+}
+.carousel .prev{
+    position:absolute ;
+    top:40%;
+    left:0;
+    cursor: pointer;
+}
+.carousel  .next{
+    position:absolute;
+    top:40%;
+    right:0;
+    cursor: pointer;
+}
